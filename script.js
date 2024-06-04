@@ -23,7 +23,7 @@ console.log(hours);
     // `;
     let time = `
         <p>
-            <span class="hours">${pm ? `0${hours}` : hours}</span>
+            <span class="hours">${pm && hours < 10 ? `0${hours}` : hours}</span>
             <span class="dots">:</span>
             <span class="minutes">${minutes}</span>
             <small class="seconds">${seconds}</small>
