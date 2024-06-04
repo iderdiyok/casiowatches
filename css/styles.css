@@ -1,15 +1,11 @@
-@font-face {
-    font-family: 'DS-DIGIB';
-    src: url('../fonts/DS-DIGIB.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DS-DIGIB';
+    font-family: 'ds-digital';
+    font-weight: 700;
 }
 
 body {
