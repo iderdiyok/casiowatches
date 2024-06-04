@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'DS-DIGIB';
+    src: url('fonts/DS-DIGIB.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DS-DIGIB';
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000; 
+}
+
+#watch-container {
+    position: relative;
+    text-align: center;
+}
+
+#watch {
+    z-index: 2;
+    width: 100%;
+}
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.5;
+}
+#screen {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100%;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.913);
+    /* color: aliceblue!important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DW-5600E{
+    top: 23%!important;
+}
+.TRN50{
+    top: 21%!important;
+}
+.GMW-B5000D{
+    top: 21%!important;
+}
+.GMW-B5000D p{
+    font-size: 36rem;
+}
+.GMW-B5000D small{
+    font-size: 28rem;
+}
+p {
+    font-size: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+small {
+    font-size: 31rem;
+}
+
+.hours, .minutes, .seconds {
+    width: 1.9ch;
+    letter-spacing: -0.02em;
+}
